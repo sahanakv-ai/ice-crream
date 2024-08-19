@@ -1,0 +1,75 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+/* Basic styling for the body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #f8cdda, #fbc2eb);
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #cad0d8;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Styling for the heading */
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #ff6f61;
+    font-size: 4em;
+    margin-top: 20%;
+    margin-bottom: 0;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+/* Styling for flavor items */
+.flavor {
+    font-size: 1.5em;
+    color: #ff6f61;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.flavor:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+/* Optional styling for buttons */
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e55b50;
+}
